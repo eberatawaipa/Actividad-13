@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+color: white;
+}
+
+h1{
+    margin: 30px;
+    color: bisque;
+}
+
+p{
+text-align: center;
+font-size: 20px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+font-weight: 200;
+margin: 30px;
+}
+
+.imgConten{
+width: 500px;
+height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid rgb(255, 30, 0);
+border-radius: 15px;
+}
+
+section{
+    width: 500px;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 30, 0);
+    margin: 20px;    
+}
+
+.divsection{
+background-color: white ;
+width: 200px;
+height: 200px;
+}
